@@ -8,7 +8,7 @@
     tools:context=".SignUpActivity">
 
     <TextView
-        android:id="@+id/lblView"
+        android:id="@+id/textvLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/fontdarksouls"
@@ -40,7 +40,7 @@
         android:drawablePadding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lblView" />
+        app:layout_constraintTop_toBottomOf="@+id/textvLogin" />
 
     <EditText
         android:id="@+id/txtPassword"
@@ -121,7 +121,7 @@
             android:layout_marginEnd="8dp"
             android:layout_weight="1"
             android:background="@drawable/social_botton"
-            android:drawableEnd="@drawable/icongoogle"
+            android:drawableStart="@drawable/icongoogle"
             android:fontFamily="@font/fontdarksouls"
             android:padding="8dp"
             android:text="Google"
@@ -137,7 +137,7 @@
             android:layout_marginStart="8dp"
             android:layout_weight="1"
             android:background="@drawable/social_botton"
-            android:drawableEnd="@drawable/icongithub"
+            android:drawableStart="@drawable/icongithub"
             android:fontFamily="@font/fontdarksouls"
             android:padding="8dp"
             android:text="GitHub"
