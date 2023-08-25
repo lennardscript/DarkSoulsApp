@@ -45,15 +45,18 @@
         tools:layout_editor_absoluteX="-50dp"
         tools:layout_editor_absoluteY="0dp">
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnIngresar"
             android:layout_width="130dp"
             android:layout_height="50dp"
             android:layout_marginBottom="150dp"
             android:layout_marginLeft="68dp"
             android:background="@drawable/custom_button"
+            style="@android:style/Widget.Button"
             android:fontFamily="@font/fontdarksouls"
             android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
             android:text="Ingresar"
             />
 
