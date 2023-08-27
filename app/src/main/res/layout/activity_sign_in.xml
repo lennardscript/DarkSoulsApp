@@ -8,11 +8,11 @@
     tools:context=".SignInActivity">
 
     <TextView
-        android:id="@+id/textvSingUp"
+        android:id="@+id/textvLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/fontdarksouls"
-        android:text="Crear su cuenta"
+        android:text="Iniciar Sesión"
         android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold"
@@ -24,51 +24,29 @@
         app:layout_constraintVertical_bias="0.18" />
 
     <EditText
-        android:id="@+id/txtUser"
-        android:layout_width="0dp"
-        android:layout_height="95dp"
-        android:layout_margin="32dp"
-        android:layout_marginTop="12dp"
-        android:backgroundTint="@color/browndarksouls2"
-        android:drawableStart="@drawable/user"
-        android:drawablePadding="16dp"
-        android:ems="10"
-        android:fontFamily="@font/fontdarksouls"
-        android:hint="Usuario"
-        android:inputType="text"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textvSingUp" />
-
-    <EditText
         android:id="@+id/txtEmail"
         android:layout_width="0dp"
         android:layout_height="95dp"
         android:layout_margin="32dp"
-        android:layout_marginTop="4dp"
-        android:backgroundTint="@color/browndarksouls2"
-        android:drawableStart="@drawable/mail"
-        android:drawablePadding="16dp"
         android:ems="10"
+        android:inputType="text"
         android:fontFamily="@font/fontdarksouls"
         android:hint="Correo"
-        android:inputType="text"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="18sp"
+        android:backgroundTint="@color/browndarksouls2"
+        android:drawableStart="@drawable/mail"
+        android:drawablePadding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtUser" />
+        app:layout_constraintTop_toBottomOf="@+id/textvLogin" />
 
     <EditText
         android:id="@+id/txtPassword"
         android:layout_width="0dp"
         android:layout_height="95dp"
         android:layout_margin="32dp"
-        android:layout_marginTop="88dp"
         android:backgroundTint="@color/browndarksouls2"
         android:drawableStart="@drawable/lock"
         android:drawablePadding="16dp"
@@ -84,18 +62,17 @@
         app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnSignUp"
-        style="@android:style/Widget.Button"
+        android:id="@+id/btnLogin"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
-        android:layout_marginTop="96dp"
-        android:background="@drawable/custom_button"
-        android:fontFamily="@font/fontdarksouls"
-        android:text="Registrarse"
+        style="@android:style/Widget.Button"
         android:textColor="@color/white"
-        android:textSize="20sp"
         android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="@font/fontdarksouls"
+        android:background="@drawable/custom_button"
+        android:text="Iniciar Sesión"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPassword" />
@@ -104,22 +81,20 @@
         android:id="@+id/textvQuestion"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="32dp"
-        android:layout_marginTop="104dp"
+        android:text="¿Aún no se ha registrado?"
         android:fontFamily="@font/fontdarksouls"
-        android:text="¿Ya tiene una cuenta registrada?"
-        android:textColor="@color/white"
         android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_margin="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSignUp" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
     <TextView
-        android:id="@+id/textvLogin"
+        android:id="@+id/textvRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Inicie sesión"
+        android:text="Registrese"
         android:textStyle="bold"
         android:textColor="@color/browndarksouls2"
         android:layout_margin="16dp"
@@ -128,5 +103,47 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textvQuestion" />
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnLogin">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLoginGoogle"
+            style="@android:style/Widget.Button"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/social_botton"
+            android:drawableStart="@drawable/icongoogle"
+            android:fontFamily="@font/fontdarksouls"
+            android:padding="8dp"
+            android:text="Google"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLoginGitHub"
+            style="@android:style/Widget.Button"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/social_botton"
+            android:drawableStart="@drawable/icongithub"
+            android:fontFamily="@font/fontdarksouls"
+            android:padding="8dp"
+            android:text="GitHub"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
