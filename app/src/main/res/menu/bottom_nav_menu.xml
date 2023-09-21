@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home"
+        />
+
+    <item
+        android:id="@+id/bottom_armas"
+        android:title="Armas"
+        android:icon="@drawable/armas"
+        />
+
+    <item
+        android:id="@+id/bottom_objetos"
+        android:title="Objetos"
+        android:icon="@drawable/objetos"
+        />
+
+    <item
+        android:id="@+id/bottom_personajes"
+        android:title="Personajes"
+        android:icon="@drawable/personajes"
+        />
+
+    <item
+        android:id="@+id/bottom_profile"
+        android:title="Perfil"
+        android:icon="@drawable/baseline_person"
+        />
+
+</menu>

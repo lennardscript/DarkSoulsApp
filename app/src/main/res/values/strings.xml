@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">DarkSoulsAPP</string>
+    <string name="open_menu">Open Navigation</string>
+    <string name="close_menu">Close Navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Armas -->
+    <string name="title_arma_1">Alabarda</string>
+    <string name="title_arma_2">Alabarda Caballero Negro</string>
+    <string name="title_arma_3">Daga</string>
+    <string name="title_arma_4">Daga de bandido</string>
+    <string name="title_arma_5">Bracamarte</string>
+    <string name="title_arma_6">Estoque</string>
+    <string name="title_arma_7">Espada ancha</string>
+
+    <string name="desc_arma_1">La Alabarda es un arma tipo alabarda de Dark Souls.</string>
+    <string name="desc_arma_2">La Alabarda Caballero Negro es una alabarda de Dark Souls.</string>
+    <string name="desc_arma_3">La Daga es un arma tipo daga de Dark Souls.</string>
+    <string name="desc_arma_4">La Daga de bandido es una daga de Dark Souls.</string>
+    <string name="desc_arma_5">La Bracamarte es una espada curva de Dark Souls.</string>
+    <string name="desc_arma_6">El Estoque es una espada de estocada de Dark Souls.</string>
+    <string name="desc_arma_7">La Espada ancha es una espada recta de Dark Souls.</string>
 </resources>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "710682464853",
+    "project_id": "darksouls-app",
+    "storage_bucket": "darksouls-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:710682464853:android:f41f58fc6caaa5b73dfadc",
+        "android_client_info": {
+          "package_name": "com.leandro.darksoulsapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbsLhQIxnu_Ws3pA75dA7QHUPcMtlGRjA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
