@@ -22,4 +22,24 @@
     <string name="desc_arma_5">La Bracamarte es una espada curva de Dark Souls.</string>
     <string name="desc_arma_6">El Estoque es una espada de estocada de Dark Souls.</string>
     <string name="desc_arma_7">La Espada ancha es una espada recta de Dark Souls.</string>
+
+    <!-- Objetos -->
+    <string name="title_objeto_1">lorem</string>
+    <string name="title_objeto_2">lorem</string>
+    <string name="title_objeto_3">lorem</string>
+
+    <string name="desc_objeto_1">lorem</string>
+    <string name="desc_objeto_2">lorem</string>
+    <string name="desc_objeto_3">lorem</string>
+
+    <!-- Personjaes -->
+
+    <string name="title_personaje_1">lorem</string>
+    <string name="title_personaje_2">lorem</string>
+    <string name="title_personaje_3">lorem</string>
+
+    <string name="desc_personaje_1">lorem</string>
+    <string name="desc_personaje_2">lorem</string>
+    <string name="desc_personaje_3">lorem</string>
+
 </resources>

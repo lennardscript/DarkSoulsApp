@@ -30,7 +30,7 @@
                         android:layout_height="60dp"
                         android:layout_marginStart="32dp"
                         android:layout_marginTop="32dp"
-                        android:src="@drawable/profileicon"
+                        android:src="@drawable/profile2"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,7 +40,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:fontFamily="@font/fontdarksouls"
-                        android:text="¡Hola, Fabián!"
+                        android:text="¡Hola, User!"
                         android:textColor="@color/white"
                         android:textSize="20sp"
                         android:textStyle="bold"
